@@ -1,5 +1,7 @@
 ## Full Domain Hash
 
+THIS IS A FORK USED FOR DEVELOPMENT PURPOSES. IT'S NOT MAINTAINED. PLEASE USE ORIGINAL LIBRARY.
+
 [![checks](https://github.com/phayes/fdh-rs/workflows/checks/badge.svg)](https://github.com/phayes/fdh-rs/actions)
 [![codecov](https://codecov.io/gh/phayes/fdh-rs/branch/master/graph/badge.svg)](https://codecov.io/gh/phayes/fdh-rs)
 [![docs](https://docs.rs/fdh/badge.svg)](https://docs.rs/fdh)
@@ -102,5 +104,5 @@ let (digest, iv) = hasher.results_in_domain(iv, digest_is_odd).unwrap();
 ```
 
  ## Contributors
- 
+
  1. Patrick Hayes ([linkedin](https://www.linkedin.com/in/patrickdhayes/)) ([github](https://github.com/phayes)) - Available for hire.
