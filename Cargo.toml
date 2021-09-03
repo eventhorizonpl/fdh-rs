@@ -1,11 +1,11 @@
 [package]
-name = "fdh"
-version = "0.7.3"
+name = "ehl-fdh"
+version = "0.8.0"
 authors = ["phayes <patrick.d.hayes@gmail.com>"]
 edition = "2018"
 description = "Full Domain Hash (FDH) for extending the size of a hash digest to an arbitrary length"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/phayes/fdh-rs"
+repository = "https://github.com/eventhorizonpl/fdh-rs"
 readme = "README.md"
 keywords = ["hash", "crypto", "digest"]
 categories = ["cryptography", "no-std"]
@@ -13,7 +13,7 @@ categories = ["cryptography", "no-std"]
 [dependencies]
 digest = "0.9.0"
 thiserror = { version = "1.0.22", optional = true }
-num-bigint = { version = "0.6", optional = true, features = [
+num-bigint = { version = "0.7", optional = true, features = [
     "zeroize"
 ], package = "num-bigint-dig" }
 subtle = "2.3.0"
